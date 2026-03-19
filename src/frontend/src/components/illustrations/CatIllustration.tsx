@@ -1,0 +1,208 @@
+export function CatIllustration({ size = 120 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 120 120"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>Cute cat illustration</title>
+      <ellipse
+        cx="60"
+        cy="82"
+        rx="30"
+        ry="24"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2.5"
+      />
+      <circle
+        cx="60"
+        cy="50"
+        r="26"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2.5"
+      />
+      <polygon
+        points="32,28 40,14 48,32"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2.5"
+      />
+      <polygon points="35,28 40,18 45,30" fill="#FFB6C1" />
+      <polygon
+        points="88,28 80,14 72,32"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2.5"
+      />
+      <polygon points="85,28 80,18 75,30" fill="#FFB6C1" />
+      <path
+        d="M55 32 Q58 26 61 32"
+        stroke="#CD853F"
+        strokeWidth="1.5"
+        fill="none"
+      />
+      <path
+        d="M60 31 Q63 25 66 31"
+        stroke="#CD853F"
+        strokeWidth="1.5"
+        fill="none"
+      />
+      <ellipse
+        cx="49"
+        cy="48"
+        rx="6"
+        ry="7"
+        fill="white"
+        stroke="#8B4513"
+        strokeWidth="1.5"
+      />
+      <ellipse cx="49" cy="48" rx="3" ry="5" fill="#2C8040" />
+      <circle cx="50" cy="46" r="1" fill="white" />
+      <ellipse
+        cx="71"
+        cy="48"
+        rx="6"
+        ry="7"
+        fill="white"
+        stroke="#8B4513"
+        strokeWidth="1.5"
+      />
+      <ellipse cx="71" cy="48" rx="3" ry="5" fill="#2C8040" />
+      <circle cx="72" cy="46" r="1" fill="white" />
+      <polygon points="60,57 57,62 63,62" fill="#E88080" />
+      <path
+        d="M57 62 Q60 66 63 62"
+        stroke="#8B4513"
+        strokeWidth="1.5"
+        fill="none"
+        strokeLinecap="round"
+      />
+      <line
+        x1="28"
+        y1="58"
+        x2="50"
+        y2="60"
+        stroke="#8B4513"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="28"
+        y1="62"
+        x2="50"
+        y2="62"
+        stroke="#8B4513"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="30"
+        y1="66"
+        x2="50"
+        y2="64"
+        stroke="#8B4513"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="92"
+        y1="58"
+        x2="70"
+        y2="60"
+        stroke="#8B4513"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="92"
+        y1="62"
+        x2="70"
+        y2="62"
+        stroke="#8B4513"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <line
+        x1="90"
+        y1="66"
+        x2="70"
+        y2="64"
+        stroke="#8B4513"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M90 88 Q110 78 105 60 Q102 52 95 58"
+        stroke="#F4A460"
+        strokeWidth="9"
+        fill="none"
+        strokeLinecap="round"
+      />
+      <path
+        d="M90 88 Q110 78 105 60 Q102 52 95 58"
+        stroke="#8B4513"
+        strokeWidth="2.5"
+        fill="none"
+        strokeLinecap="round"
+      />
+      <rect
+        x="38"
+        y="99"
+        width="11"
+        height="15"
+        rx="5.5"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2"
+      />
+      <rect
+        x="53"
+        y="101"
+        width="11"
+        height="13"
+        rx="5.5"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2"
+      />
+      <rect
+        x="68"
+        y="101"
+        width="11"
+        height="13"
+        rx="5.5"
+        fill="#F4A460"
+        stroke="#8B4513"
+        strokeWidth="2"
+      />
+      <ellipse
+        cx="60"
+        cy="84"
+        rx="18"
+        ry="14"
+        fill="#FFF0E0"
+        stroke="#CD853F"
+        strokeWidth="1"
+      />
+      <path
+        d="M34 74 Q60 85 86 74"
+        stroke="#6C63FF"
+        strokeWidth="5"
+        fill="none"
+        strokeLinecap="round"
+      />
+      <circle
+        cx="60"
+        cy="82"
+        r="4"
+        fill="#FFB74D"
+        stroke="#8B4513"
+        strokeWidth="1.5"
+      />
+    </svg>
+  );
+}
