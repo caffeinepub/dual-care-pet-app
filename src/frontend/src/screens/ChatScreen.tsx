@@ -118,6 +118,9 @@ export function ChatScreen() {
             Pet Doctor 🩺
           </h1>
           <p className="text-xs text-primary">Always here to help</p>
+          <p className="text-xs text-muted-foreground">
+            Founder: NIRBHAY MAURYA
+          </p>
         </div>
         <div className="ml-auto w-2 h-2 rounded-full bg-green-400 animate-pulse" />
       </div>

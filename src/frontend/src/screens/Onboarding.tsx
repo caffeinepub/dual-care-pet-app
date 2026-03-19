@@ -136,19 +136,26 @@ export function Onboarding({ onComplete }: { onComplete: () => void }) {
       className="mobile-container flex flex-col bg-background"
       style={{ minHeight: "100dvh" }}
     >
-      <div className="flex items-center gap-2 px-5 pt-10 pb-4">
-        <PawPrint size={28} />
-        <span className="font-poppins font-bold text-xl text-foreground">
-          Dual Care
-        </span>
-        <span className="text-muted-foreground text-sm ml-auto">Setup</span>
+      <div className="flex flex-col px-5 pt-10 pb-4">
+        <div className="flex items-center gap-2">
+          <PawPrint size={28} />
+          <span className="font-poppins font-bold text-xl text-foreground">
+            Dual Care
+          </span>
+          <span className="text-muted-foreground text-sm ml-auto">Setup</span>
+        </div>
+        <p className="text-xs mt-1" style={{ color: "#f97316" }}>
+          Founder: NIRBHAY MAURYA
+        </p>
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 pb-4 space-y-3">
         {messages.map((msg) => (
           <div
             key={msg.id}
-            className={`flex animate-slide-up ${msg.role === "bot" ? "justify-start" : "justify-end"}`}
+            className={`flex animate-slide-up ${
+              msg.role === "bot" ? "justify-start" : "justify-end"
+            }`}
           >
             {msg.role === "bot" && (
               <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center mr-2 flex-shrink-0 mt-1">
